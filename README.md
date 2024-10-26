@@ -19,10 +19,13 @@ With this plugin, you can:
 ## Screenshots
 
 1. **Gravity Forms Field Type in ACF**  
-   ![Gravity Forms Field Type](assets/gravity-forms-field-type.png)
+   ![Gravity Forms Field Type](https://github.com/h-lakkad1998/wpgql-gf-form-in-acf/blob/main/assets/Add-Plugins-%E2%80%B9-Graphql-%E2%80%94-WordPress-10-26-2024_09_20_AM.png)
 
-2. **Querying Form Fields via GraphQL**  
-   ![GraphQL Query](assets/graphql-query.png)
+2. **Select Type As GfFOrm in ACF Setting Fields**  
+   ![Gravity Forms Field Type](https://github.com/h-lakkad1998/wpgql-gf-form-in-acf/blob/main/assets/Add-Plugins-%E2%80%B9-Graphql-%E2%80%94-WordPress-10-26-2024_09_20_AM.png)
+   
+3. **Querying Form Fields via GraphQL**  
+   ![GraphQL Query](https://github.com/h-lakkad1998/wpgql-gf-form-in-acf/blob/main/assets/GraphiQL-IDE-%E2%80%B9-Graphql-%E2%80%94-WordPress-10-26-2024_09_26_AM.png)
 
 ## Installation
 
