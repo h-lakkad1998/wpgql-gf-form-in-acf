@@ -18,22 +18,15 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-/**
- * Check if required plugins are active.
- */
 function lakkad_check_required_plugins() {
-    // Check if WPGraphQL ACF and WPGraphQL Gravity Forms plugins are active.
     if ( ! is_plugin_active( 'wpgraphql-acf/wpgraphql-acf.php' ) || ! is_plugin_active( 'wp-graphql-gravity-forms/wp-graphql-gravity-forms.php' ) ) {
         add_action( 'admin_notices', 'lakkad_required_plugins_notice' );
-        // Deactivate this plugin if the required plugins are not active.
         deactivate_plugins( plugin_basename( __FILE__ ) );
     }
 }
 add_action( 'admin_init', 'lakkad_check_required_plugins' );
 
-/**
- * Display an admin notice if required plugins are not active.
- */
+
 function lakkad_required_plugins_notice() {
     ?>
     <div class="notice notice-error">
@@ -44,16 +37,9 @@ function lakkad_required_plugins_notice() {
 
 use WPGraphQL\Acf\FieldConfig;
 
-/**
- * Register ACF field type 'forms' in WPGraphQL.
- */
 function lakkad_GQL_register_acf_forms_field_type() {
     // Ensure the function register_graphql_acf_field_type exists before proceeding.
     if ( function_exists( 'register_graphql_acf_field_type' ) ) {
-        
-        /**
-         * Register the custom ACF field type 'forms' with WPGraphQL.
-         */
         register_graphql_acf_field_type(
             'forms',
             [
