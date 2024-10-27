@@ -30,7 +30,7 @@ With this plugin, you can:
 ## Installation
 
 1. Upload the plugin files to the `/wp-content/plugins/wpgql-gf-form-in-acf` directory or install via the WordPress plugins screen.
-2. OR simply download the zip of the code and got add new plugin and upload the zip file.
+2. Or simply download the zip of the code and go to add new plugin and upload the zip file.
 3. Activate the plugin through the **Plugins** screen in WordPress.
 4. Ensure both **WPGraphQL ACF** and **WPGraphQL Gravity Forms** plugins are active, as they are required dependencies.
 
